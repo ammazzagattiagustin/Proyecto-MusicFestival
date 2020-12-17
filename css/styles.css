@@ -1,0 +1,249 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /** Reset para REMS - 62.5% = 10px de 16px **/
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+/** Globales **/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 5rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3.5rem;
+    text-align: center;
+    margin: 2rem 0;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+.boton {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgba(112, 238, 101, 0.822);
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    font-weight: 700;
+    cursor: pointer;
+    border: solid 1px black;
+}
+
+.boton:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.d-block {
+    display: block !important;
+}
+
+
+/** Index **/
+
+.site-header {
+    padding: 1rem 0 3rem 0;
+}
+
+.site-header.inicio {
+    background-image: url(../img/Hero.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 80vh;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    font-weight: 900;
+}
+
+.countdown {
+    height: 25rem;
+    margin-top: 2rem;
+}
+
+.main-header {
+    font-size: 5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.date-direction {
+    margin-top: 8rem;
+}
+
+.date {
+    margin-right: 15rem;
+}
+
+i.icons {
+    margin-right: 1rem;
+}
+
+.icons {
+    margin-right: 2rem;
+    font-size: 2rem;
+}
+
+.icons:hover {
+    color: rgba(112, 238, 101, 0.822);
+}
+
+.links {
+    margin-left: 3rem;
+    text-transform: uppercase;
+}
+
+.links:hover {
+    color: rgb(33, 163, 22);
+    text-decoration: none;
+}
+
+.pase {
+    border: 2px solid rgba(112, 238, 101, 0.822);
+    text-align: center;
+}
+
+.pase p {
+    text-decoration: underline;
+}
+
+.pase .precio {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.pase h3 {
+    text-transform: uppercase;
+}
+
+.pase:hover {
+    transform: scale(1.05);
+}
+
+.main-contenido {
+    background-color: black;
+    color: white;
+    margin: 5rem auto;
+}
+
+.imagen {
+    width: 80rem;
+}
+
+.text-contenido {
+    padding: 3rem;
+}
+
+.text-contenido h3 {
+    font-size: 4rem;
+}
+
+.text-contenido p {
+    font-size: 1.8rem;
+}
+
+
+/** Footer **/
+
+.text-footer h4 {
+    text-transform: uppercase;
+}
+
+
+/** Historia **/
+
+.texto-historia {
+    font-size: 1.5rem;
+}
+
+
+/** Merchandise **/
+
+.text-merchandise {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.text-merchandise p {
+    font-size: 2rem;
+}
+
+.merchandise img:hover {
+    transform: scale(1.05);
+}
+
+
+/** Contacto **/
+
+.seccion {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contenido-centrado {
+    max-width: 800px;
+}
+
+.contacto p {
+    font-size: 1.4rem;
+    color: #4f4f4f;
+    margin: 2rem 0 0 0;
+}
+
+label {
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+}
+
+input:not([type="submit"]),
+textarea,
+select {
+    padding: 1rem;
+    display: block;
+    width: 100%;
+    background-color: #e1e1e1;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+textarea {
+    height: 20rem;
+}
+
+.nav-item {
+    color: white;
+}

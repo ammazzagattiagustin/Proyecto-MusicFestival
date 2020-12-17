@@ -1,0 +1,27 @@
+.section-header {
+    background-color: $bg-black;
+    padding-top: 1rem;
+}
+
+.navegacion {
+    margin-left: 1rem;
+    text-transform: uppercase;
+    color: $white;
+    &:hover {
+        color: $green;
+    }
+}
+
+.text-header {
+    color: $white;
+    text-align: center;
+}
+
+.texto-entrada::before {
+    content: "";
+    display: block;
+    width: 8rem;
+    height: 0.5rem;
+    background-color: $bg-green;
+    margin: auto;
+}
