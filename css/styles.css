@@ -42,7 +42,7 @@ h3 {
     color: black;
     text-decoration: none;
     text-transform: uppercase;
-    background-color: rgba(112, 238, 101, 0.822);
+    background-color: rgba(112, 238, 101, 1);
     padding: 1rem;
     margin-top: 2rem;
     border-radius: 0.5rem;
@@ -54,24 +54,19 @@ h3 {
 .boton:hover {
     text-decoration: none;
     color: black;
+    font-weight: 900;
 }
 
 .d-block {
     display: block !important;
 }
 
-
-/** Index **/
-
-.site-header {
-    padding: 1rem 0 3rem 0;
+.bg-navbar {
+    background-color: black;
 }
 
-.site-header.inicio {
-    background-image: url(../img/Hero.jpg);
-    background-position: center center;
-    background-size: cover;
-    height: 80vh;
+.img-logotipo {
+    max-width: 5rem;
 }
 
 ul li {
@@ -82,15 +77,20 @@ ul li a {
     text-decoration: none;
     color: black;
     list-style: none;
-    font-weight: 900;
+    font-weight: bold;
 }
 
-.countdown {
-    height: 25rem;
-    margin-top: 2rem;
+
+/** Index **/
+
+.bg-header {
+    background-image: url(../img/Hero.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 80vh;
 }
 
-.main-header {
+.tittle-header {
     font-size: 5rem;
     font-weight: 900;
     text-transform: uppercase;
@@ -98,7 +98,7 @@ ul li a {
 }
 
 .date-direction {
-    margin-top: 8rem;
+    padding-top: 12rem;
 }
 
 .date {
@@ -118,16 +118,6 @@ i.icons {
     color: rgba(112, 238, 101, 0.822);
 }
 
-.links {
-    margin-left: 3rem;
-    text-transform: uppercase;
-}
-
-.links:hover {
-    color: rgb(33, 163, 22);
-    text-decoration: none;
-}
-
 .pase {
     border: 2px solid rgba(112, 238, 101, 0.822);
     text-align: center;
@@ -137,7 +127,7 @@ i.icons {
     text-decoration: underline;
 }
 
-.pase .precio {
+.pase .price {
     text-decoration: none;
     font-weight: 700;
     font-size: 4rem;
@@ -151,7 +141,7 @@ i.icons {
     transform: scale(1.05);
 }
 
-.main-contenido {
+.main-description {
     background-color: black;
     color: white;
     margin: 5rem auto;
@@ -161,15 +151,15 @@ i.icons {
     width: 80rem;
 }
 
-.text-contenido {
+.text-description {
     padding: 3rem;
 }
 
-.text-contenido h3 {
+.text-description h3 {
     font-size: 4rem;
 }
 
-.text-contenido p {
+.text-description p {
     font-size: 1.8rem;
 }
 
@@ -178,13 +168,34 @@ i.icons {
 
 .text-footer h4 {
     text-transform: uppercase;
+    font-weight: 900;
+}
+
+.footer-items a {
+    color: white;
 }
 
 
 /** Historia **/
 
-.texto-historia {
-    font-size: 1.5rem;
+.text-history {
+    font-size: 1.8rem;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: 0.5s ease;
+    opacity: 1;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
 }
 
 
@@ -207,16 +218,16 @@ i.icons {
 
 /** Contacto **/
 
-.seccion {
+.margin-contact {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
-.contenido-centrado {
+.content-center {
     max-width: 800px;
 }
 
-.contacto p {
+.contact p {
     font-size: 1.4rem;
     color: #4f4f4f;
     margin: 2rem 0 0 0;
@@ -242,8 +253,4 @@ select {
 
 textarea {
     height: 20rem;
-}
-
-.nav-item {
-    color: white;
 }

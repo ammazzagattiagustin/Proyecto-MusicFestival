@@ -1,15 +1,12 @@
-.section-header {
-    background-color: $bg-black;
-    padding-top: 1rem;
+.bg-hero {
+    background-color: black;
+    padding-top: 6rem;
 }
 
 .navegacion {
     margin-left: 1rem;
     text-transform: uppercase;
     color: $white;
-    &:hover {
-        color: $green;
-    }
 }
 
 .text-header {
@@ -17,7 +14,7 @@
     text-align: center;
 }
 
-.texto-entrada::before {
+.text-line::before {
     content: "";
     display: block;
     width: 8rem;

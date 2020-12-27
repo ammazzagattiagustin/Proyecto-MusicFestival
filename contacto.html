@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Music Festival</title>
+    <meta name="description" content="Festival de música electrónica que se realizará en Córdoba, Argentina, donde se presentarán los mejores DJs del mundo" />
+    <meta name="keywords" content="MUSICA, FESTIVAL, MUSIC, CORDOBA, ARGENTINA, ELECTRONICA, DJ, EVENTO, FEBRERO" />
+    <title>Festival de Música</title>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/fontawesome.css" />
@@ -17,83 +19,89 @@
 </head>
 
 <body>
-    <header class="section-header">
-
-        <nav class="navbar navbar-expand-lg navbar-light bg-black">
-            <a class="navbar-brand" href="#"></a>
-            <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active navegacion">
-                        <a class="nav-link text-white" href="index.html">Inicio<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item active navegacion">
-                        <a class="nav-link text-white" href="line-up.html">Line-Up<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item active navegacion">
-                        <a class="nav-link text-white" href="historia.html">Historia<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item active navegacion">
-                        <a class="nav-link text-white" href="merchandise.html">Merchandise<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item active navegacion">
-                        <a class="nav-link text-white" href="contacto.html">Contacto<span class="sr-only">(current)</span></a>
-                    </li>
-                </ul>
+    <!-- Header-->
+    <header class="bg-hero">
+        <div class="d-flex justify-content-between fixed-top bg-navbar align-items-center">
+            <div class="ml-5">
+                <img class="img-logotipo" src="img/Logo.jpeg" alt="Logotipo">
             </div>
-        </nav>
-
+            <div class="mr-2">
+                <nav class="navbar navbar-expand-lg navbar-light bg-black">
+                    <a class="navbar-brand" href="#"></a>
+                    <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                            </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active navegacion">
+                                <a class="nav-link text-white" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active navegacion">
+                                <a class="nav-link text-white" href="line-up.html">Line-Up<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active navegacion">
+                                <a class="nav-link text-white" href="historia.html">Historia<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active navegacion">
+                                <a class="nav-link text-white" href="merchandise.html">Merchandise<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active navegacion">
+                                <a class="nav-link text-white" href="contacto.html">Contacto<span class="sr-only">(current)</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
         <div class="text-header">
-            <h1 class="texto-entrada p-3">Contacto</h1>
+            <h1 class="text-line p-3">Contacto</h1>
         </div>
     </header>
-
-    <main class="container seccion contenido-centrado">
+    <!-- Main-->
+    <main class="container margin-contact content-center">
         <h2>Formulario de Contacto</h2>
-
-        <form class="contacto pl-3 pr-3" action="">
+        <form class="contact pl-3 pr-3" action="">
             <fieldset>
                 <label for="Nombre">Nombre:</label>
                 <input type="text" name="Nombre" id="Nombre" placeholder="Tu Nombre" />
-
                 <label for="Email">E-mail:</label>
                 <input type="email" name="Email" id="Email" placeholder="Tu Correo Electrónico" required />
-
                 <label for="Telefono">Teléfono:</label>
                 <input type="tel" name="Telefono" id="Telefono" placeholder="Tu Teléfono" required />
-
                 <label for="Mensaje">Mensaje:</label>
                 <textarea name="Mensaje" id="Mensaje"></textarea>
             </fieldset>
-
             <input type="submit" value="Enviar" class="boton" />
         </form>
     </main>
-
+    <!-- Footer-->
     <footer class="footer">
         <div class="container p-4">
             <div class="row text-center">
                 <div class="col-4 text-footer">
                     <h4>Festival</h4>
-                    <p>Tickets</p>
-                    <p>Sponsors</p>
-                    <p>Prensa</p>
-                    <p>Merchandise</p>
+                    <div class="footer-items d-flex flex-column">
+                        <a href="#">Tickets</a>
+                        <a href="#">Sponsors</a>
+                        <a href="#">Prensa</a>
+                        <a href="#">Merchandise</a>
+                    </div>
                 </div>
                 <div class="col-4 text-footer">
                     <h4>Ayuda</h4>
-                    <p>Contacto</p>
-                    <p>Información</p>
+                    <div class="footer-items d-flex flex-column">
+                        <a href="#">Contacto</a>
+                        <a href="#">Información</a>
+                    </div>
                 </div>
                 <div class="col-4 text-footer">
                     <h4>Social</h4>
-                    <p>Instagram</p>
-                    <p>Facebook</p>
-                    <p>Twitter</p>
-                    <p>YouTube</p>
+                    <div class="footer-items d-flex flex-column">
+                        <a href="#">Instagram</a>
+                        <a href="#">Facebook</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">YouTube</a>
+                    </div>
                 </div>
             </div>
             <p></p>Todos los derechos reservados - Music Festival &reg;</p>

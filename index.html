@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Music Festival</title>
+    <meta name="description" content="Festival de música electrónica que se realizará en Córdoba, Argentina, donde se presentarán los mejores DJs del mundo" />
+    <meta name="keywords" content="MUSICA, FESTIVAL, MUSIC, CORDOBA, ARGENTINA, ELECTRONICA, DJ, EVENTO, FEBRERO" />
+    <title>Festival de Música</title>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/fontawesome.css" />
@@ -18,127 +20,96 @@
 
 <body>
     <!-- Header-->
-    <header class="site-header inicio">
-        <div class="container">
-            <div class="d-flex justify-content-between align-items-center">
-                <ul class="d-flex">
-                    <li>
-                        <a class="icons" href="#"><i class="fab fa-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a class="icons" href="#"><i class="fab fa-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a class="icons" href="#"><i class="fab fa-youtube"></i></a>
-                    </li>
-                    <li>
-                        <a class="icons" href="#"><i class="fab fa-instagram"></i></a>
-                    </li>
-                </ul>
-
+    <header class="bg-header">
+        <div class="d-flex justify-content-between fixed-top bg-navbar align-items-center">
+            <div class="ml-5">
+                <img class="img-logotipo" src="img/Logo.jpeg" alt="Logotipo">
+            </div>
+            <div class="mr-2">
                 <nav class="navbar navbar-expand-lg navbar-light bg-black">
                     <a class="navbar-brand" href="#"></a>
-                    <button class="navbar-toggler bg-black" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-
+                    <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                            </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item active navegacion">
-                                <a class="nav-link text-black" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+                                <a class="nav-link text-white" href="index.html">Inicio<span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item active navegacion">
-                                <a class="nav-link text-black" href="line-up.html">Line-Up<span class="sr-only">(current)</span></a>
+                                <a class="nav-link text-white" href="line-up.html">Line-Up<span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item active navegacion">
-                                <a class="nav-link text-black" href="historia.html">Historia<span class="sr-only">(current)</span></a>
+                                <a class="nav-link text-white" href="historia.html">Historia<span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item active navegacion">
-                                <a class="nav-link text-black" href="merchandise.html">Merchandise<span class="sr-only">(current)</span></a>
+                                <a class="nav-link text-white" href="merchandise.html">Merchandise<span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item active navegacion">
-                                <a class="nav-link text-black" href="contacto.html">Contacto<span class="sr-only">(current)</span></a>
+                                <a class="nav-link text-white" href="contacto.html">Contacto<span class="sr-only">(current)</span></a>
                             </li>
                         </ul>
                     </div>
                 </nav>
-
             </div>
-            <div class="date-direction d-flex justify-content-center">
-                <i class="icons far fa-calendar-alt"></i>
-                <p class="date">12-14 Feb</p>
-                <i class="icons fas fa-map-marker-alt"></i>
-                <p>Cordoba, Arg</p>
-            </div>
-            <h1 class="main-header">Music Festival</h1>
         </div>
+        <div class="date-direction d-flex justify-content-center">
+            <i class="icons far fa-calendar-alt"></i>
+            <p class="date">12-14 Feb</p>
+            <i class="icons fas fa-map-marker-alt"></i>
+            <p>Cordoba, Arg</p>
+        </div>
+        <h1 class="tittle-header">Music Festival</h1>
     </header>
-
+    <!-- Main-->
     <main>
         <!-- Seccion Nuestros Invitados-->
         <section class="container">
-            <h2 class="texto-entrada m-5">Nuestros Invitados</h2>
-            <img src="img/invitados.jpg" alt="Imagen Invitados" />
+            <h2 class="text-line m-5">Nuestros Invitados</h2>
+            <img src="img/invitados.jpg" alt="Image" />
         </section>
-
-        <!-- Seccion Faltan-->
-        <section class="countdown">
-            <h2 class="texto-entrada m-5">Faltan</h2>
+        <!-- Seccion Countdown-->
+        <section>
+            <h2 class="text-line m-5">Faltan</h2>
             <div data-type="countdown" data-id="2288161" class="tickcounter" style="width: 20; height: 20rem; margin: auto; position: relative; padding-bottom: 10%"><a href="//www.tickcounter.com/countdown/2288161/faltan" title="Faltan">Faltan</a><a href="//www.tickcounter.com/" title="Countdown">Countdown</a></div>
-            <script>
-                (function(d, s, id) {
-                    var js, pjs = d.getElementsByTagName(s)[0];
-                    if (d.getElementById(id)) return;
-                    js = d.createElement(s);
-                    js.id = id;
-                    js.src = "//www.tickcounter.com/static/js/loader.js";
-                    pjs.parentNode.insertBefore(js, pjs);
-                }(document, "script", "tickcounter-sdk"));
-            </script>
         </section>
-
         <!-- Seccion Contenido-->
-        <section class="container-fluid main-contenido">
-
+        <section class="container-fluid main-description">
             <div class="row">
-                <div class="col-sm-12 col-md-6 text-contenido">
+                <div class="col-sm-12 col-md-6 text-description">
                     <h3>La música está en nuestro ADN</h3>
                     <p>3 días, 5 escenarios y más de 100 bandas de todo el mundo. Cada edición nos trae los mejores shows en vivo, el arte, los más variados sabores y un sinfin de nuevas experiencias.</p>
                 </div>
                 <div class="col-sm-12 col-md-6 p-0">
-                    <img class="imagen" src="img/index1.jpeg" alt="Imagen Musica">
+                    <img class="imagen" src="/img/index1.jpeg" alt="imagen index1">
                 </div>
             </div>
-
             <div class="row d-flex flex-md-row-reverse">
-                <div class="col-sm-12 col-md-6 text-contenido">
+                <div class="col-sm-12 col-md-6 text-description">
                     <h3>Food</h3>
                     <p>Music Festival te trae propuestas gastronómicas de los chefs argentinos más reconocidos del mundo para disfrutar de los mejores sabores mientras escuchas a tu artista favorito.</p>
                 </div>
                 <div class="col-sm-12 col-md-6 p-0">
-                    <img class="imagen" src="img/index2.jpeg" alt="Imagen Food">
+                    <img class="imagen" src="/img/index2.jpeg" alt="imagen index2">
                 </div>
             </div>
-
             <div class="row">
-                <div class="col-sm-12 col-md-6 text-contenido">
+                <div class="col-sm-12 col-md-6 text-description">
                     <h3>Espíritu Verde</h3>
                     <p>El espacio donde podés conectarte con un estilo de vida saludable, responsable y consciente.</p>
                 </div>
                 <div class="col-sm-12 col-md-6 p-0">
-                    <img class="imagen" src="img/index3.jpeg" alt="Imagen Verde">
+                    <img class="imagen" src="/img/index3.jpeg" alt="imagen index3">
                 </div>
             </div>
         </section>
-
         <!-- Seccion Precios-->
         <section class="container">
-            <h2 class="texto-entrada">Precios</h2>
-
+            <h2 class="text-line">Precios</h2>
             <div class="row d-flex justify-content-between">
                 <div class="col-sm-8 col-md-3 m-5 p-5 pase">
                     <h3>Pase 1 Día</h3>
-                    <p class="precio">$2000</p>
+                    <p class="price">$2000</p>
                     <p>Incluye:</p>
                     <ul>
                         <li>Acceso VIP</li>
@@ -147,10 +118,9 @@
                     </ul>
                     <a class="boton d-block" href="#">Comprar</a>
                 </div>
-
                 <div class="col-sm-8 col-md-3 m-5 p-5 pase">
                     <h3>Pase 2 Días</h3>
-                    <p class="precio">$3500</p>
+                    <p class="price">$3500</p>
                     <p>Incluye:</p>
                     <ul>
                         <li>Acceso VIP</li>
@@ -159,10 +129,9 @@
                     </ul>
                     <a class="boton d-block" href="#">Comprar</a>
                 </div>
-
                 <div class="col-sm-8 col-md-3 m-5 p-5 pase">
                     <h3>Pase 3 Días</h3>
-                    <p class="precio">$5000</p>
+                    <p class="price">$5000</p>
                     <p>Incluye:</p>
                     <ul>
                         <li>Acceso VIP</li>
@@ -174,29 +143,34 @@
             </div>
         </section>
     </main>
-
     <!-- Footer-->
     <footer class="footer">
         <div class="container p-4">
             <div class="row text-center">
                 <div class="col-4 text-footer">
                     <h4>Festival</h4>
-                    <p>Tickets</p>
-                    <p>Sponsors</p>
-                    <p>Prensa</p>
-                    <p>Merchandise</p>
+                    <div class="footer-items d-flex flex-column">
+                        <a href="#">Tickets</a>
+                        <a href="#">Sponsors</a>
+                        <a href="#">Prensa</a>
+                        <a href="#">Merchandise</a>
+                    </div>
                 </div>
                 <div class="col-4 text-footer">
                     <h4>Ayuda</h4>
-                    <p>Contacto</p>
-                    <p>Información</p>
+                    <div class="footer-items d-flex flex-column">
+                        <a href="#">Contacto</a>
+                        <a href="#">Información</a>
+                    </div>
                 </div>
                 <div class="col-4 text-footer">
                     <h4>Social</h4>
-                    <p>Instagram</p>
-                    <p>Facebook</p>
-                    <p>Twitter</p>
-                    <p>YouTube</p>
+                    <div class="footer-items d-flex flex-column">
+                        <a href="#">Instagram</a>
+                        <a href="#">Facebook</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">YouTube</a>
+                    </div>
                 </div>
             </div>
             <p></p>Todos los derechos reservados - Music Festival &reg;</p>
@@ -205,6 +179,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/countdown.js"></script>
 
 </body>
 
