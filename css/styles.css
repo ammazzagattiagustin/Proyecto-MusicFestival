@@ -102,7 +102,7 @@ ul li a {
 }
 
 .date {
-    margin-right: 15rem;
+    margin-right: 13rem;
 }
 
 i.icons {
@@ -163,6 +163,14 @@ i.icons {
     font-size: 1.8rem;
 }
 
+.tickcounter {
+    width: 20;
+    height: 20rem;
+    margin: auto;
+    position: relative;
+    padding-bottom: 10%;
+}
+
 
 /** Footer **/
 
@@ -173,6 +181,15 @@ i.icons {
 
 .footer-items a {
     color: white;
+}
+
+.footer-line::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 0.1rem;
+    background-color: rgba(112, 238, 101, 0.822);
+    margin-top: 1rem;
 }
 
 
