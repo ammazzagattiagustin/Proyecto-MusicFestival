@@ -1,5 +1,7 @@
+/** Header **/
+
 .bg-hero {
-    background-color: black;
+    background-color: $bg-black;
     padding-top: 6rem;
 }
 
@@ -21,4 +23,39 @@
     height: 0.5rem;
     background-color: $bg-green;
     margin: auto;
+}
+
+.bg-header {
+    background-image: url(../img/Hero.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 80vh;
+}
+
+.tittle-header {
+    font-size: 5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.date-direction {
+    padding-top: 12rem;
+}
+
+.date {
+    margin-right: 13rem;
+}
+
+i.icons {
+    margin-right: 1rem;
+}
+
+.icons {
+    margin-right: 2rem;
+    font-size: 2rem;
+}
+
+.icons:hover {
+    color: $green;
 }

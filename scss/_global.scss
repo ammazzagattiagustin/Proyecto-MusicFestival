@@ -1,7 +1,71 @@
+/** Globales **/
+
 body {
     background-color: $bg-white;
     color: $black;
     font-family: $main-font;
     font-size: $font-size-base;
     line-height: 2;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 5rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3.5rem;
+    text-align: center;
+    margin: 2rem 0;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+.boton {
+    color: $black;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: $bg-green;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    font-weight: 700;
+    cursor: pointer;
+    border: solid 1px $black;
+}
+
+.boton:hover {
+    text-decoration: none;
+    color: $black;
+    font-weight: 900;
+}
+
+.d-block {
+    display: block !important;
+}
+
+.bg-navbar {
+    background-color: $black;
+}
+
+.img-logotipo {
+    max-width: 5rem;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: $black;
+    list-style: none;
+    font-weight: bold;
 }

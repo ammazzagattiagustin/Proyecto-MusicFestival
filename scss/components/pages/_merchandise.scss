@@ -1,0 +1,15 @@
+/** Merchandise **/
+
+.text-merchandise {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.text-merchandise p {
+    font-size: 2rem;
+}
+
+.merchandise img:hover {
+    transform: scale(1.05);
+}

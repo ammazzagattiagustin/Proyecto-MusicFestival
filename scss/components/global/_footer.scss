@@ -1,6 +1,26 @@
+/** Footer **/
+
 .footer {
     background-color: $bg-black;
     margin-top: 2rem;
     color: $white;
     background-image: linear-gradient(to bottom, black, rgba(4, 31, 1, 0.822));
+}
+
+.text-footer h4 {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.footer-items a {
+    color: $white;
+}
+
+.footer-line::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 0.1rem;
+    background-color: $bg-green;
+    margin-top: 1rem;
 }

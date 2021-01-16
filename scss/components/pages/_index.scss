@@ -1,0 +1,54 @@
+/** Index **/
+
+.pase {
+    border: 2px solid $green;
+    text-align: center;
+}
+
+.pase p {
+    text-decoration: underline;
+}
+
+.pase .price {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.pase h3 {
+    text-transform: uppercase;
+}
+
+.pase:hover {
+    transform: scale(1.05);
+}
+
+.main-description {
+    background-color: $bg-black;
+    color: $bg-white;
+    margin: 5rem auto;
+}
+
+.imagen {
+    width: 80rem;
+}
+
+.text-description {
+    padding: 3rem;
+}
+
+.text-description h3 {
+    font-size: 4rem;
+}
+
+.text-description p {
+    font-size: 1.8rem;
+}
+
+.tickcounter {
+    width: 20;
+    height: 20rem;
+    margin: auto;
+    position: relative;
+    padding-bottom: 10%;
+}
